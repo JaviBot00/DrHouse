@@ -1,0 +1,7 @@
+**.idea/**
+*.iml
+
+/deployment/db_backup
+/deployment/web
+
+*.zip
