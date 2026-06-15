@@ -128,6 +128,5 @@ public class CSVParser {
 
     // ── Getters auxiliares ────────────────────────────────────────────────────
     public Map<String, Medicamento>  getMedicamentos()  { return medicamentos; }
-    public Map<Integer, Tratamiento> getTratamientos()  { return tratamientos; }
 
 }

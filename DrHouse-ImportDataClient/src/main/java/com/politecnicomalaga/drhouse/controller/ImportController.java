@@ -5,7 +5,6 @@ import com.google.gson.GsonBuilder;
 import com.politecnicomalaga.drhouse.dataservice.CSVParser;
 import com.politecnicomalaga.drhouse.model.Medicamento;
 import com.politecnicomalaga.drhouse.model.Paciente;
-import com.politecnicomalaga.drhouse.model.Tratamiento;
 import okhttp3.*;
 
 import java.io.IOException;
@@ -25,14 +24,12 @@ public class ImportController {
 
     public void importar(String rutaCSV) {
         try {
-            List<Paciente> pacientes        = parser.parsear(rutaCSV);
+            List<Paciente> pacientes = parser.parsear(rutaCSV);
             Map<String, Medicamento> medicamentos = parser.getMedicamentos();
-            Map<Integer, Tratamiento> tratamientos = parser.getTratamientos();
 
             Map<String, Object> payload = new HashMap<>();
-            payload.put("pacientes",  pacientes);
+            payload.put("pacientes", pacientes);
             payload.put("medicamentos", medicamentos.values());
-            payload.put("tratamientos", tratamientos.values());
 
             String json = gson.toJson(payload);
             System.out.println("JSON generado:\n" + json);
