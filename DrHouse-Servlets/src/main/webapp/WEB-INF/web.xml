@@ -7,7 +7,7 @@
     <!--    FindPacienteXDNI  -->
     <servlet>
         <servlet-name>FindPacienteXDNI</servlet-name>
-        <servlet-class>com.politecnicomalaga.clinica.view.FindPacienteXDNI</servlet-class>
+        <servlet-class>com.politecnicomalaga.drhouse.view.FindPacienteXDNI</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>FindPacienteXDNI</servlet-name>
@@ -17,7 +17,7 @@
     <!--    FindMedicamentoXCodigo-->
     <servlet>
         <servlet-name>FindMedicamentoXCodigo</servlet-name>
-        <servlet-class>com.politecnicomalaga.clinica.view.FindMedicamentoXCodigo</servlet-class>
+        <servlet-class>com.politecnicomalaga.drhouse.view.FindMedicamentoXCodigo</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>FindMedicamentoXCodigo</servlet-name>
@@ -27,7 +27,7 @@
     <!--    ImportData-->
     <servlet>
         <servlet-name>ImportData</servlet-name>
-        <servlet-class>com.politecnicomalaga.clinica.view.ImportData</servlet-class>
+        <servlet-class>com.politecnicomalaga.drhouse.view.ImportData</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ImportData</servlet-name>
@@ -37,7 +37,7 @@
     <!--    ListAllMedicamentos-->
     <servlet>
         <servlet-name>ListAllMedicamentos</servlet-name>
-        <servlet-class>com.politecnicomalaga.clinica.view.ListAllMedicamentos</servlet-class>
+        <servlet-class>com.politecnicomalaga.drhouse.view.ListAllMedicamentos</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ListAllMedicamentos</servlet-name>
@@ -47,7 +47,7 @@
     <!--    ListMedicamentosXTratamiento  -->
     <servlet>
         <servlet-name>ListMedicamentosXTratamiento</servlet-name>
-        <servlet-class>com.politecnicomalaga.clinica.view.ListMedicamentosXTratamiento</servlet-class>
+        <servlet-class>com.politecnicomalaga.drhouse.view.ListMedicamentosXTratamiento</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ListMedicamentosXTratamiento</servlet-name>
